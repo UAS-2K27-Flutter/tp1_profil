@@ -1,16 +1,26 @@
-# tp1_profil
+# TP 1 - Carte de profil
 
-A new Flutter project.
+Application Flutter qui affiche une carte de profil simple.
 
-## Getting Started
+## Objectif
+Combiner plusieurs widgets de base pour créer une carte de profil.
 
-This project is a starting point for a Flutter application.
+## Contenu de la carte
+- Photo de profil (CircleAvatar)
+- Nom complet
+- Courte description
+- Séparateur (Divider)
+- Icônes de contact : téléphone et e-mail (Row)
+- Le tout centré dans la page
 
-A few resources to get you started if this is your first Flutter project:
+## Widgets utilisés
+Scaffold, AppBar, Column, Row, CircleAvatar, SizedBox, Divider, Icon, Text
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Lancer le projet
+```
+flutter pub get
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Auteur
+Mohamed Moncef Haddad - UAS/ESIET
